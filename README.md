@@ -1,5 +1,6 @@
 # docker-gui-firefox
 Use X11 to run GUI app on docker <br/><br/>
+dockerhub link: https://hub.docker.com/r/jiangyukunok/firefox_dev/ <br/>
 1.First pull in Ubuntu:14.04, then install firefox by running: apt-get update && apt-get install firefox(can also build from a Dockerfile) <br/>
 2.Install XQuartz(since X11 is no longer included directly in mac os)<br/>
 Open a X server by running open -a XQuartz <br/>
